@@ -49,8 +49,10 @@ public final class SwiftyRatingsView: UIView {
     
     // MARK: - Properties
     
+    /// Handler that gets called when rating changes.
     public var handler: ((Int) -> Void)?
     
+    /// Private
     private var configuration: Configuration!
     private var currentRating = 0
     private var lastIndexPath: IndexPath?
@@ -73,12 +75,19 @@ public final class SwiftyRatingsView: UIView {
 
 extension SwiftyRatingsView: SwiftyRatingsViewConfigurable {
     
+    /// Configure SwiftyRatingsView
+    ///
+    /// - parameter configuration: A struct to setup SwiftyRatingsView.
     public func configure(with configuration: Configuration) {
         self.configuration = configuration
         self.currentRating = configuration.startRating
         collectionView.reloadData()
     }
     
+    /// Add blur to SwiftyRatingsView
+    ///
+    /// - parameter style: The UIBlurEffect style.
+    /// - parameter color: The color of the blur effect.
     public func addBlur(_ style: UIBlurEffect.Style, color: UIColor = .orange) {
         let blurEffect = UIBlurEffect(style: style)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
