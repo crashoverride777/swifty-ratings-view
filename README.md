@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyRate.svg?style=flat)]()
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SwiftyRatingsView.svg)](https://img.shields.io/cocoapods/v/SwiftyRatingsView.svg)
 
-A simpler ratings view. No fuss.
+A simpler ratings view. No fuss. Features swipe gesture.
 
 ## Requirements
 
