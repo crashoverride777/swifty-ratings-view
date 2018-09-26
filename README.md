@@ -60,9 +60,9 @@ Way 1, Stack views (preferred)
 Add a stack view to your desired view via storyboards/xibs, give it a width and height constraints of. Than create an outlet to your UIView class that will show the ratings view. Finall use didSet to add the ratingsView.
 ```swift
 @IBOutlet weak var ratingsStackView: UIStackView! {
-didSet {
-ratingsStackView.addArrangedSubview(ratingsView)
-}
+    didSet {
+        ratingsStackView.addArrangedSubview(ratingsView)
+    }
 }
 ```
 
