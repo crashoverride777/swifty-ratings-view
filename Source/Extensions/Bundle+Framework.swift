@@ -9,5 +9,5 @@
 import Foundation
 
 extension Bundle {
-    static let framework = Bundle(identifier: "com.dominik.SwiftyRatingsView")!
+    static let framework = Bundle(identifier: "com.dominik.swiftyratingsview")!
 }

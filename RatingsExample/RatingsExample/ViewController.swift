@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         $0.handler = { [weak self] rating in
             print(rating)
         }
+        $0.backgroundColor = .purple
         return $0
     }(SwiftyRatingsView.instantiate())
     
@@ -46,6 +47,7 @@ class ViewController: UIViewController {
         $0.handler = { [weak self] rating in
             print(rating)
         }
+        $0.backgroundColor = .purple
         return $0
     }(SwiftyRatingsView.instantiate())
     

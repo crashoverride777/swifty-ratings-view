@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YUCM6759QIbT9MDzfGaBXbVmZRU=
+		2eDwzIjMK9ho7Ndt6NdjLXMfPTo=
 		</data>
 		<key>Modules/SwiftyRatingsView.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		g9DxGa99/o9iJ9MDYQE27WVdQos=
+		C0Vc8GowpWJk5kgcBIaFD8kkjLU=
 		</data>
 		<key>Modules/SwiftyRatingsView.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		nvLYma4dIs6DGC+vYaNp1sN6ZUM=
+		8e8qLd5lUtvEIe6eidgDEm3GOeI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>SwiftyRatingsView.nib</key>
 		<data>
-		8T2Nt9j/NiqNxXSJp53N2G/MAV4=
+		zNXP59yuAEbfQUlmln5zOtd1w+A=
 		</data>
 		<key>SwiftyRatingsViewCell.nib</key>
 		<data>
-		lxbwyFwYGnNcILHyBXYM8bOh038=
+		NI4AQs/2znYH3bmFO+0JiS893IM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -57,14 +57,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G44FbXxrb/rhNb1OzvRSou3fViUnmZRVlKqS0VIE+PY=
+			tIuJjAXEfLzr3gXazQ19nQLNNy5OGQlc/sQtPvOBKbM=
 			</data>
 		</dict>
 		<key>Modules/SwiftyRatingsView.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4b4sFI/GIOPmCq98AfN5egnHwDBj9eml7rUywiC0rdM=
+			GBajcE83/0AjKd9jV5nwNwvgpUlwHUH8zz204ggzRRU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -78,14 +78,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iHsv2YdwzbADTJgL65aUHFo49maFGeqoDKA+rj0P+/Q=
+			MjD2E/1vGraojvg/CteXUUmmL7E+oo7wWWj1NcJ1pSE=
 			</data>
 		</dict>
 		<key>SwiftyRatingsViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rAcmKH8ZF2qas2rPAm6bhuPqCeXrGoOh/MFcTSzIAjA=
+			40i2duI4lQ1Fet25dAqISAqmDVyWe88ry2p98SfLSK8=
 			</data>
 		</dict>
 	</dict>

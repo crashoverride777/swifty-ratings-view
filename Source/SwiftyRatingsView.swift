@@ -39,7 +39,7 @@ public final class SwiftyRatingsView: UIView {
         didSet {
             collectionView.register(SwiftyRatingsViewCell.nib, forCellWithReuseIdentifier: SwiftyRatingsViewCell.reuseId)
             collectionView.backgroundView = nil
-            collectionView.backgroundColor = .red
+            collectionView.backgroundColor = .clear
             
             let panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePan(_:)))
             panGesture.cancelsTouchesInView = false
@@ -206,12 +206,10 @@ private extension SwiftyRatingsView {
                 let cell = collectionView.cellForItem(at: IndexPath(row: 0, section: 0)) as! SwiftyRatingsViewCell
                 cell.isRated = false
                 lastIndexPath = nil
-                print("SwiftyRatingsview user swiped offscreen")
                 return
             }
             
             // Update cells
-            print("SwiftyRatingsview updating cells")
             for cell in collectionView.visibleCells {
                 guard let cellIndexPath = collectionView.indexPath(for: cell) else { continue }
                 (cell as! SwiftyRatingsViewCell).isRated = cellIndexPath <= indexPath
