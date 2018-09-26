@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name = 'SwiftyRatingsView'
-s.version = '1.0.2'
+s.version = '1.0.3'
 s.license = 'MIT'
 s.summary = 'A simple ratings view.'
 s.homepage = 'https://github.com/crashoverride777/swifty-ratings-view'

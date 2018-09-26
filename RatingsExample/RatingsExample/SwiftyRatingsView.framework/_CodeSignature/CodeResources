@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2eDwzIjMK9ho7Ndt6NdjLXMfPTo=
+		vmR9QSbHLKFGjfiN/T28j2yAwro=
 		</data>
 		<key>Modules/SwiftyRatingsView.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/SwiftyRatingsView.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		8e8qLd5lUtvEIe6eidgDEm3GOeI=
+		oYron0XENCIL2c8uId8h3AYYTvk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>SwiftyRatingsView.nib</key>
 		<data>
-		zNXP59yuAEbfQUlmln5zOtd1w+A=
+		KcK5V+01+oSp9R6NwQA0EIfGLzI=
 		</data>
 		<key>SwiftyRatingsViewCell.nib</key>
 		<data>
-		NI4AQs/2znYH3bmFO+0JiS893IM=
+		DBXX00XcmscDo/r3l1VGa72c3/k=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -64,7 +64,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GBajcE83/0AjKd9jV5nwNwvgpUlwHUH8zz204ggzRRU=
+			FHViS9CoKcd77TwLmiCCvkzpHauS2TDJCtwF9xhU8CU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -78,14 +78,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MjD2E/1vGraojvg/CteXUUmmL7E+oo7wWWj1NcJ1pSE=
+			AyLnofHdDH4Fg+63H7mblC0+8fPlTZXGdj5INGAmXzA=
 			</data>
 		</dict>
 		<key>SwiftyRatingsViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			40i2duI4lQ1Fet25dAqISAqmDVyWe88ry2p98SfLSK8=
+			CRfDN5x1TIoX9zshzNlqsiofz2LDL3+Q61i7Yjv2Wg8=
 			</data>
 		</dict>
 	</dict>
