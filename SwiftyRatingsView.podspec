@@ -9,13 +9,13 @@ s.social_media_url = 'http://twitter.com/overrideiactive'
 s.authors = { 'Dominik' => 'overrideinteractive@icloud.com' }
 
 s.requires_arc = true
-s.ios.deployment_target = '10.3'
+s.ios.deployment_target = '11.4'
     
 s.source = {
     :git => 'https://github.com/crashoverride777/swifty-ratings-view.git',
     :tag => s.version
 }
 
-s.source_files = "SwiftyRatingsView/Source/**/*.{swift}"
+s.source_files = "SwiftyRatingsView/**/*.{swift}"
 
 end

@@ -44,7 +44,6 @@
 		B40E1339215C07310039A50A = {
 			isa = PBXGroup;
 			children = (
-				B40E134E215C078E0039A50A /* Source */,
 				B40E1345215C07310039A50A /* SwiftyRatingsView */,
 				B40E1344215C07310039A50A /* Products */,
 			);
@@ -61,6 +60,7 @@
 		B40E1345215C07310039A50A /* SwiftyRatingsView */ = {
 			isa = PBXGroup;
 			children = (
+				B40E134E215C078E0039A50A /* Source */,
 				B40E1346215C07310039A50A /* SwiftyRatingsView.h */,
 				B40E1347215C07310039A50A /* Info.plist */,
 			);
