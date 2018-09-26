@@ -17,6 +17,6 @@ s.source = {
 }
 
 s.source_files = "SwiftyRatingsView/**/*.{swift}"
-s.resources = ['*.{xib}']
+s.resources =    "SwiftyRatingsView/**/*.{xib}"
 
 end
