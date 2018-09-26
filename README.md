@@ -10,7 +10,7 @@ A simpler ratings view. No fuss. Features swipe gesture.
 
 ## Requirements
 
-- iOS 9.3+
+- iOS 11.4+
 - Swift 4.0+
 
 ## Installation
