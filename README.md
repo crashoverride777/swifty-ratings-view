@@ -44,7 +44,7 @@ Create a lazy property to instantiate the ratingsView. Call the configure method
         }
         return $0
     }(RatingsView.instantiate())
-```swift
+```
 
 You can also further call these methods to configure the ratings view
 ```swift
@@ -56,14 +56,14 @@ Now there is 2 ways to add the ratings view to your actual view, stackviews or c
 
 Way 1, Stack views (preferred)
 
-Add a stack view to your desired view, give it a width and height constraints of your desired size and other constraints you need. Than create an outlet from the stack view in your storyboard to your UIView class and add the ratingsview via didSet
+Add a stack view to your desired view via storyboards/xibs, give it a width and height constraints of. Than create an outlet to your UIView class that will show the ratings view. Finall use didSet to add the ratingsView.
 ```swift
 @IBOutlet weak var ratingsStackView: UIStackView! {
     didSet {
        ratingsStackView.addArrangedSubview(ratingsView)
     }
 }
-``
+```
 
 Way 2, code
 
