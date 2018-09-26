@@ -34,15 +34,7 @@ import SwiftyRatingsView
 
 - Add to view
 
-There is 2 ways you can add the ratings view to your app.
-
-Way 1, Stack views (preferred)
-
-Add a stack view to your desired view, give it a width and height constraints of your desired size and other constraints you need. Than create an outlet from the stack view in your storyboard to your UIView class.
-```swift
-@IBOutlet weak var ratingsStackView: UIStackView!
-```
-Create a lazy property to instantiate the ratingsView itself. Call the configure method to setup the ratings view and add the callback handler to listen for ratings changes.
+Create a lazy property to instantiate the ratingsView. Call the configure method to setup the ratings view and add the callback handler to listen for ratings changes.
 ```swift
  private lazy var ratingsView: RatingsView = {
         $0.configure(with: UIImage(named: "star")!, totalRatingsCount: 5, currentRating: 2)
@@ -60,39 +52,28 @@ $0.setColors(selected: .orange, deselected: .gray)
 $0.addBlur(.light, color: .orange)   
 ```
 
-Finally add the ratingsView to your stackView via its didSet method.
+Now there is 2 ways to add the ratings view to your actual view, stackviews or code.
+
+Way 1, Stack views (preferred)
+
+Add a stack view to your desired view, give it a width and height constraints of your desired size and other constraints you need. Than create an outlet from the stack view in your storyboard to your UIView class and add the ratingsview via didSet
 ```swift
 @IBOutlet weak var ratingsStackView: UIStackView! {
     didSet {
        ratingsStackView.addArrangedSubview(ratingsView)
     }
 }
+``
 
-Full sample code (also check sample project)
+Way 2, code
 
 ```swift
-class ViewController: UIViewController {
-
-    private lazy var ratingsView: RatingsView = {
-        $0.configure(with: UIImage(named: "star")!, totalRatingsCount: 5, currentRating: 2)
-        //$0.setColors(selected: .orange, deselected: .gray)
-        $0.handler = { [weak self] rating in
-            print(rating)
-        }
-        return $0
-    }(RatingsView.instantiate())
-    
-    @IBOutlet weak var ratingsStackView: UIStackView! {
-        didSet {
-            ratingsStackView.addArrangedSubview(ratingsView)
-        }
-    }
-       
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        ...
-    }
-}
-
+view.addSubview(ratingsView)
+ratingsView.translatesAutoresizingMaskIntoConstraints = false
+ratingsView.widthAnchor.constraint(equalToConstant: 160).isActive = true
+ratingsView.heightAnchor.constraint(equalToConstant: 42).isActive = true
+ratingsView.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor).isActive = true
+ratingsView.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor).isActive = true
 ```
+
+    
