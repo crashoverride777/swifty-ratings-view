@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name = 'SwiftyRatingsView'
-s.version = '1.0.7'
+s.version = '1.0.8'
 s.license = 'MIT'
 s.summary = 'A simple ratings view.'
 s.homepage = 'https://github.com/crashoverride777/swifty-ratings-view'
@@ -17,6 +17,8 @@ s.source = {
 }
 
 s.source_files = "SwiftyRatingsView/**/*.{swift}"
-s.resources = "SwiftyRatingsView/Source/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resource_bundles = {
+     'SwiftyRatingsView' => ['SwiftyRatingsView/Source/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}']
+}
 
 end

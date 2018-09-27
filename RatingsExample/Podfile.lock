@@ -1,5 +1,5 @@
 PODS:
-  - SwiftyRatingsView (1.0.6)
+  - SwiftyRatingsView (1.0.7)
 
 DEPENDENCIES:
   - SwiftyRatingsView
@@ -9,7 +9,7 @@ SPEC REPOS:
     - SwiftyRatingsView
 
 SPEC CHECKSUMS:
-  SwiftyRatingsView: ed338d578c15045cd4e84d2b92bdf5cb53c4a669
+  SwiftyRatingsView: 639d6906b40866504281847dc607fa70cc0d0858
 
 PODFILE CHECKSUM: 0d1cb8771820ec98d43158432b0e67931a8beebb
 

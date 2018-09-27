@@ -15,6 +15,6 @@ extension UICollectionReusableView { // also incluces UICollectionViewCell
     }
     
     static var nib: UINib {
-        return UINib(nibName: reuseId, bundle: .framework)
+        return UINib(nibName: reuseId, bundle: Bundle(for: self))
     }
 }
