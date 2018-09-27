@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -44,10 +44,10 @@
 		6A57C2F7B04F1FEF2E57D76BBAEAAE0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8742E23F812A84D484D687EDC5154E14 /* UICollectionReusableView+Reuse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionReusableView+Reuse.swift"; path = "SwiftyRatingsView/Source/Extensions/UICollectionReusableView+Reuse.swift"; sourceTree = "<group>"; };
 		8782CB2F0339B9D510058F243456C684 /* SwiftyRatingsView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyRatingsView.modulemap; sourceTree = "<group>"; };
-		894FD21B557384049FE2DB758DB196E4 /* Pods_RatingsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RatingsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		894FD21B557384049FE2DB758DB196E4 /* Pods_RatingsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RatingsExample.framework; path = "Pods-RatingsExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4A9EE74B058AB7F9DADF5859EE188C /* SwiftyRatingsView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRatingsView-umbrella.h"; sourceTree = "<group>"; };
 		8F75136B1F436869B124E26649129C5E /* Pods-RatingsExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RatingsExample-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		940B3DCD350E650528EC2266777BCEEA /* Pods-RatingsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RatingsExample.release.xcconfig"; sourceTree = "<group>"; };
 		A029C9F030DE074C0BCF82228BD70D89 /* SwiftyRatingsView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRatingsView-prefix.pch"; sourceTree = "<group>"; };
 		B1827C418804B8503782E85570FEA58C /* SwiftyRatingsView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyRatingsView-dummy.m"; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		D78FDCEA78C8BD9F7A0C6C16EBFC49FD /* Bundle+Framework.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Framework.swift"; path = "SwiftyRatingsView/Source/Extensions/Bundle+Framework.swift"; sourceTree = "<group>"; };
 		DAF2D8E3610FBB7C9BDA603AEFE88BBC /* SwiftyRatingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyRatingsView.swift; path = SwiftyRatingsView/Source/SwiftyRatingsView.swift; sourceTree = "<group>"; };
 		DAF94C5B4D71D3DA98F5E77B45C3D645 /* Pods-RatingsExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RatingsExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E9BAA0CE4047A4478A7E03961419D761 /* SwiftyRatingsView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyRatingsView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BAA0CE4047A4478A7E03961419D761 /* SwiftyRatingsView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyRatingsView.framework; path = SwiftyRatingsView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED94F68CA63704422E8BB9E3263E8ADA /* SwiftyRatingsViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SwiftyRatingsViewCell.xib; path = SwiftyRatingsView/Source/SwiftyRatingsViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +101,7 @@
 				AC4BBAB56824BB526E0B2058A042D987 /* Resources */,
 				31ECE86FC23853F3642657E7D50759A0 /* Support Files */,
 			);
+			name = SwiftyRatingsView;
 			path = SwiftyRatingsView;
 			sourceTree = "<group>";
 		};
@@ -254,7 +255,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -338,7 +339,11 @@
 				INFOPLIST_FILE = "Target Support Files/SwiftyRatingsView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SwiftyRatingsView/SwiftyRatingsView.modulemap";
 				PRODUCT_MODULE_NAME = SwiftyRatingsView;
 				PRODUCT_NAME = SwiftyRatingsView;
@@ -371,7 +376,11 @@
 				INFOPLIST_FILE = "Target Support Files/SwiftyRatingsView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SwiftyRatingsView/SwiftyRatingsView.modulemap";
 				PRODUCT_MODULE_NAME = SwiftyRatingsView;
 				PRODUCT_NAME = SwiftyRatingsView;
@@ -405,7 +414,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-RatingsExample/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RatingsExample/Pods-RatingsExample.modulemap";
 				OTHER_LDFLAGS = "";
@@ -540,7 +553,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -563,7 +575,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-RatingsExample/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RatingsExample/Pods-RatingsExample.modulemap";
 				OTHER_LDFLAGS = "";

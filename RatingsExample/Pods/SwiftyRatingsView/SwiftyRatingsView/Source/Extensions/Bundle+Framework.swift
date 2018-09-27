@@ -13,8 +13,8 @@ extension Bundle {
     
     static var framework: Bundle {
         let bundle = Bundle(for: SwiftyRatingsView.self)
-        let bundleURL = bundle.url(forResource: "SwiftyRatingsView", withExtension: "bundle")
-        //resourceURL?.appendingPathComponent("SwiftyRatingsView.bundle")
+        let bundleURL = bundle.resourceURL?.appendingPathComponent("SwiftyRatingsView.bundle")
+        //url(forResource: "SwiftyRatingsView", withExtension: "bundle")
         let resourceBundle = Bundle(url: bundleURL!)
         return resourceBundle ?? Bundle(for: SwiftyRatingsView.self)
     }
