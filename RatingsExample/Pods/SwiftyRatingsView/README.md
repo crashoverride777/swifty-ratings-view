@@ -1,7 +1,5 @@
 # Swifty Ratings View
 
-# SwiftyRate
-
 [![Swift 4.2](https://img.shields.io/badge/swift-4.2-ED523F.svg?style=flat)](https://swift.org/download/)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyRate.svg?style=flat)]()
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SwiftyRatingsView.svg)](https://img.shields.io/cocoapods/v/SwiftyRatingsView.svg)
