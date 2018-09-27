@@ -1,0 +1,9 @@
+platform :ios, '11.4'
+
+target 'RatingsExample' do
+  use_frameworks!
+
+  # Pods for RatingsExample
+  pod 'SwiftyRatingsView'
+
+end

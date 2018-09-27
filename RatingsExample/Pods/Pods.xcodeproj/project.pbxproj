@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0618D0DF7A83F6DADF511B1EBE27C08D /* Pods-RatingsExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B70E4D560128D9D8AB7DF5914EE9D9FF /* Pods-RatingsExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B52BCCD686245A5B3CD9F9D4EDB7F22 /* SwiftyRatingsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CECCE1FB84A1B46EC947482DBEFAB74 /* SwiftyRatingsViewCell.swift */; };
+		1B1B3574A8404AEAE1B89581D7BACFEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2511F1AD38D93DF880DF24026E7A335D /* SwiftyRatingsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED94F68CA63704422E8BB9E3263E8ADA /* SwiftyRatingsViewCell.xib */; };
+		6C3C7C408E8E9F41E2630B55602400B2 /* SwiftyRatingsView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4A9EE74B058AB7F9DADF5859EE188C /* SwiftyRatingsView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B193E8848D5A38F9CB98B46AEB985EF /* UICollectionReusableView+Reuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8742E23F812A84D484D687EDC5154E14 /* UICollectionReusableView+Reuse.swift */; };
+		8AA0849D51FC174C1B43B88D3CAA7598 /* SwiftyRatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2D8E3610FBB7C9BDA603AEFE88BBC /* SwiftyRatingsView.swift */; };
+		8FD0C676FC4BD147BD6877C859986A3F /* UICollectionView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57126D9EDC1B807397134C3D8B32A45 /* UICollectionView+Appearance.swift */; };
+		98BA23DF521F5FA2677BDF3666219CEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9A2DCFBA7926A58CD9E3A77F6FF6DB92 /* SwiftyRatingsView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1827C418804B8503782E85570FEA58C /* SwiftyRatingsView-dummy.m */; };
+		A7DED15AB4C7C843749DAE522BC07DFA /* Bundle+Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78FDCEA78C8BD9F7A0C6C16EBFC49FD /* Bundle+Framework.swift */; };
+		BE203A2A7D5E7A45F68B81B1993C98E9 /* Pods-RatingsExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F75136B1F436869B124E26649129C5E /* Pods-RatingsExample-dummy.m */; };
+		CD3F60D494B14B79473301A858E8A358 /* SwiftyRatingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31487DA343C20DA706D257F2E9CF2E54 /* SwiftyRatingsView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D616E11EA4DE06673912C8B5FCA62FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E920B841DAD6BA98FC329A8A473C0D8;
+			remoteInfo = SwiftyRatingsView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10BADF3AAE510D2977D3BC4B790932C6 /* Pods-RatingsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RatingsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		1CECCE1FB84A1B46EC947482DBEFAB74 /* SwiftyRatingsViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyRatingsViewCell.swift; path = SwiftyRatingsView/Source/SwiftyRatingsViewCell.swift; sourceTree = "<group>"; };
+		2D82D6505CB291F79159268736DDF655 /* Pods-RatingsExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RatingsExample-frameworks.sh"; sourceTree = "<group>"; };
+		31487DA343C20DA706D257F2E9CF2E54 /* SwiftyRatingsView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SwiftyRatingsView.xib; path = SwiftyRatingsView/Source/SwiftyRatingsView.xib; sourceTree = "<group>"; };
+		488549E6ADF17B8660AB8A931111EA98 /* SwiftyRatingsView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyRatingsView.xcconfig; sourceTree = "<group>"; };
+		503E1EC1C65B136ADA75ABEEEB8DD08B /* Pods-RatingsExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RatingsExample-resources.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		676D216662251DB5125C94B5443BD173 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A57C2F7B04F1FEF2E57D76BBAEAAE0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8742E23F812A84D484D687EDC5154E14 /* UICollectionReusableView+Reuse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionReusableView+Reuse.swift"; path = "SwiftyRatingsView/Source/Extensions/UICollectionReusableView+Reuse.swift"; sourceTree = "<group>"; };
+		8782CB2F0339B9D510058F243456C684 /* SwiftyRatingsView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyRatingsView.modulemap; sourceTree = "<group>"; };
+		894FD21B557384049FE2DB758DB196E4 /* Pods_RatingsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RatingsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4A9EE74B058AB7F9DADF5859EE188C /* SwiftyRatingsView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRatingsView-umbrella.h"; sourceTree = "<group>"; };
+		8F75136B1F436869B124E26649129C5E /* Pods-RatingsExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RatingsExample-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940B3DCD350E650528EC2266777BCEEA /* Pods-RatingsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RatingsExample.release.xcconfig"; sourceTree = "<group>"; };
+		A029C9F030DE074C0BCF82228BD70D89 /* SwiftyRatingsView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRatingsView-prefix.pch"; sourceTree = "<group>"; };
+		B1827C418804B8503782E85570FEA58C /* SwiftyRatingsView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyRatingsView-dummy.m"; sourceTree = "<group>"; };
+		B70E4D560128D9D8AB7DF5914EE9D9FF /* Pods-RatingsExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RatingsExample-umbrella.h"; sourceTree = "<group>"; };
+		C8D4C50F984D3B0FE58A4977280AF3C8 /* Pods-RatingsExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RatingsExample.modulemap"; sourceTree = "<group>"; };
+		D1AC71990DADDA78C8D3B5598CCEF69D /* Pods-RatingsExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RatingsExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		D57126D9EDC1B807397134C3D8B32A45 /* UICollectionView+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Appearance.swift"; path = "SwiftyRatingsView/Source/Extensions/UICollectionView+Appearance.swift"; sourceTree = "<group>"; };
+		D78FDCEA78C8BD9F7A0C6C16EBFC49FD /* Bundle+Framework.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Framework.swift"; path = "SwiftyRatingsView/Source/Extensions/Bundle+Framework.swift"; sourceTree = "<group>"; };
+		DAF2D8E3610FBB7C9BDA603AEFE88BBC /* SwiftyRatingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyRatingsView.swift; path = SwiftyRatingsView/Source/SwiftyRatingsView.swift; sourceTree = "<group>"; };
+		DAF94C5B4D71D3DA98F5E77B45C3D645 /* Pods-RatingsExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RatingsExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9BAA0CE4047A4478A7E03961419D761 /* SwiftyRatingsView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyRatingsView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED94F68CA63704422E8BB9E3263E8ADA /* SwiftyRatingsViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SwiftyRatingsViewCell.xib; path = SwiftyRatingsView/Source/SwiftyRatingsViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B57FAC5D867FA77C8822D19BB1CCD138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98BA23DF521F5FA2677BDF3666219CEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68B123E16E4F61889E62CA5F0370993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1B3574A8404AEAE1B89581D7BACFEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2520473016FA3197972376A7CDB76DDD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40099968AE04CF992270A152EB25C193 /* Pods-RatingsExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29ABC628EC9869340CB19E05C7C26CB3 /* SwiftyRatingsView */ = {
+			isa = PBXGroup;
+			children = (
+				D78FDCEA78C8BD9F7A0C6C16EBFC49FD /* Bundle+Framework.swift */,
+				DAF2D8E3610FBB7C9BDA603AEFE88BBC /* SwiftyRatingsView.swift */,
+				1CECCE1FB84A1B46EC947482DBEFAB74 /* SwiftyRatingsViewCell.swift */,
+				8742E23F812A84D484D687EDC5154E14 /* UICollectionReusableView+Reuse.swift */,
+				D57126D9EDC1B807397134C3D8B32A45 /* UICollectionView+Appearance.swift */,
+				AC4BBAB56824BB526E0B2058A042D987 /* Resources */,
+				31ECE86FC23853F3642657E7D50759A0 /* Support Files */,
+			);
+			path = SwiftyRatingsView;
+			sourceTree = "<group>";
+		};
+		31ECE86FC23853F3642657E7D50759A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A57C2F7B04F1FEF2E57D76BBAEAAE0F /* Info.plist */,
+				8782CB2F0339B9D510058F243456C684 /* SwiftyRatingsView.modulemap */,
+				488549E6ADF17B8660AB8A931111EA98 /* SwiftyRatingsView.xcconfig */,
+				B1827C418804B8503782E85570FEA58C /* SwiftyRatingsView-dummy.m */,
+				A029C9F030DE074C0BCF82228BD70D89 /* SwiftyRatingsView-prefix.pch */,
+				8C4A9EE74B058AB7F9DADF5859EE188C /* SwiftyRatingsView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyRatingsView";
+			sourceTree = "<group>";
+		};
+		3E88185D0B8E60FD59EA7F6B83CE716A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29ABC628EC9869340CB19E05C7C26CB3 /* SwiftyRatingsView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		40099968AE04CF992270A152EB25C193 /* Pods-RatingsExample */ = {
+			isa = PBXGroup;
+			children = (
+				676D216662251DB5125C94B5443BD173 /* Info.plist */,
+				C8D4C50F984D3B0FE58A4977280AF3C8 /* Pods-RatingsExample.modulemap */,
+				DAF94C5B4D71D3DA98F5E77B45C3D645 /* Pods-RatingsExample-acknowledgements.markdown */,
+				D1AC71990DADDA78C8D3B5598CCEF69D /* Pods-RatingsExample-acknowledgements.plist */,
+				8F75136B1F436869B124E26649129C5E /* Pods-RatingsExample-dummy.m */,
+				2D82D6505CB291F79159268736DDF655 /* Pods-RatingsExample-frameworks.sh */,
+				503E1EC1C65B136ADA75ABEEEB8DD08B /* Pods-RatingsExample-resources.sh */,
+				B70E4D560128D9D8AB7DF5914EE9D9FF /* Pods-RatingsExample-umbrella.h */,
+				10BADF3AAE510D2977D3BC4B790932C6 /* Pods-RatingsExample.debug.xcconfig */,
+				940B3DCD350E650528EC2266777BCEEA /* Pods-RatingsExample.release.xcconfig */,
+			);
+			name = "Pods-RatingsExample";
+			path = "Target Support Files/Pods-RatingsExample";
+			sourceTree = "<group>";
+		};
+		5AC2B5C71A6B5D89BA6E06C40F1E080A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				894FD21B557384049FE2DB758DB196E4 /* Pods_RatingsExample.framework */,
+				E9BAA0CE4047A4478A7E03961419D761 /* SwiftyRatingsView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3E88185D0B8E60FD59EA7F6B83CE716A /* Pods */,
+				5AC2B5C71A6B5D89BA6E06C40F1E080A /* Products */,
+				2520473016FA3197972376A7CDB76DDD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AC4BBAB56824BB526E0B2058A042D987 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31487DA343C20DA706D257F2E9CF2E54 /* SwiftyRatingsView.xib */,
+				ED94F68CA63704422E8BB9E3263E8ADA /* SwiftyRatingsViewCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA744933643CFF125680C28E776E49C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0618D0DF7A83F6DADF511B1EBE27C08D /* Pods-RatingsExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E3B628C63FE917B694A73FA8F59C8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3C7C408E8E9F41E2630B55602400B2 /* SwiftyRatingsView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E920B841DAD6BA98FC329A8A473C0D8 /* SwiftyRatingsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3033EC8A5E525303AAD68504DB553E31 /* Build configuration list for PBXNativeTarget "SwiftyRatingsView" */;
+			buildPhases = (
+				694F0FBA8C64412B2F18BF74EC389AED /* Sources */,
+				B57FAC5D867FA77C8822D19BB1CCD138 /* Frameworks */,
+				3EAB700D167F6FF2D34A9DB155C111DC /* Resources */,
+				F3E3B628C63FE917B694A73FA8F59C8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyRatingsView;
+			productName = SwiftyRatingsView;
+			productReference = E9BAA0CE4047A4478A7E03961419D761 /* SwiftyRatingsView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D892EB3A7820BF5D5DA9845D0F6A4EA0 /* Pods-RatingsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16E2295C318EB3722587F828589C731D /* Build configuration list for PBXNativeTarget "Pods-RatingsExample" */;
+			buildPhases = (
+				DE5B9354A7351AD89CF6D23326F96F70 /* Sources */,
+				B68B123E16E4F61889E62CA5F0370993 /* Frameworks */,
+				BA744933643CFF125680C28E776E49C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB9D9CCCF755112DA2D11AC07D2E1379 /* PBXTargetDependency */,
+			);
+			name = "Pods-RatingsExample";
+			productName = "Pods-RatingsExample";
+			productReference = 894FD21B557384049FE2DB758DB196E4 /* Pods_RatingsExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5AC2B5C71A6B5D89BA6E06C40F1E080A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D892EB3A7820BF5D5DA9845D0F6A4EA0 /* Pods-RatingsExample */,
+				2E920B841DAD6BA98FC329A8A473C0D8 /* SwiftyRatingsView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EAB700D167F6FF2D34A9DB155C111DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3F60D494B14B79473301A858E8A358 /* SwiftyRatingsView.xib in Resources */,
+				2511F1AD38D93DF880DF24026E7A335D /* SwiftyRatingsViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		694F0FBA8C64412B2F18BF74EC389AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DED15AB4C7C843749DAE522BC07DFA /* Bundle+Framework.swift in Sources */,
+				9A2DCFBA7926A58CD9E3A77F6FF6DB92 /* SwiftyRatingsView-dummy.m in Sources */,
+				8AA0849D51FC174C1B43B88D3CAA7598 /* SwiftyRatingsView.swift in Sources */,
+				0B52BCCD686245A5B3CD9F9D4EDB7F22 /* SwiftyRatingsViewCell.swift in Sources */,
+				7B193E8848D5A38F9CB98B46AEB985EF /* UICollectionReusableView+Reuse.swift in Sources */,
+				8FD0C676FC4BD147BD6877C859986A3F /* UICollectionView+Appearance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5B9354A7351AD89CF6D23326F96F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE203A2A7D5E7A45F68B81B1993C98E9 /* Pods-RatingsExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB9D9CCCF755112DA2D11AC07D2E1379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyRatingsView;
+			target = 2E920B841DAD6BA98FC329A8A473C0D8 /* SwiftyRatingsView */;
+			targetProxy = D616E11EA4DE06673912C8B5FCA62FEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		137F144E3A8D1525C148C0A23344317C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488549E6ADF17B8660AB8A931111EA98 /* SwiftyRatingsView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyRatingsView/SwiftyRatingsView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyRatingsView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyRatingsView/SwiftyRatingsView.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyRatingsView;
+				PRODUCT_NAME = SwiftyRatingsView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E5C2C595EA95AE5D0802ED353E65384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488549E6ADF17B8660AB8A931111EA98 /* SwiftyRatingsView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyRatingsView/SwiftyRatingsView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyRatingsView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyRatingsView/SwiftyRatingsView.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyRatingsView;
+				PRODUCT_NAME = SwiftyRatingsView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50046BA504E2BEEE136A8B70A5965BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10BADF3AAE510D2977D3BC4B790932C6 /* Pods-RatingsExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RatingsExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RatingsExample/Pods-RatingsExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DDFA12D8EE8D7FB9E02D39AEAF568609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940B3DCD350E650528EC2266777BCEEA /* Pods-RatingsExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RatingsExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RatingsExample/Pods-RatingsExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16E2295C318EB3722587F828589C731D /* Build configuration list for PBXNativeTarget "Pods-RatingsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50046BA504E2BEEE136A8B70A5965BAF /* Debug */,
+				DDFA12D8EE8D7FB9E02D39AEAF568609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3033EC8A5E525303AAD68504DB553E31 /* Build configuration list for PBXNativeTarget "SwiftyRatingsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137F144E3A8D1525C148C0A23344317C /* Debug */,
+				2E5C2C595EA95AE5D0802ED353E65384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

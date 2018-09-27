@@ -9,6 +9,35 @@
 import UIKit
 import SwiftyRatingsView
 
+extension UICollectionReusableView { // also incluces UICollectionViewCell
+    
+    static var reuseId: String {
+        return String(describing: self)
+    }
+    
+    static var nib: UINib {
+        return UINib(nibName: reuseId, bundle: .framework)
+    }
+}
+
+
+extension Bundle {
+    static var framework: Bundle {
+        let bundle = Bundle(for: SwiftyRatingsView.self)
+        let bundleURL = bundle.resourceURL?.appendingPathComponent("SwiftyRatingsView.bundle")//url(forResource: "SwiftyRatingsView", withExtension: "bundle")
+        let resourceBundle = Bundle(url: bundleURL!)
+        return resourceBundle ?? Bundle(for: SwiftyRatingsView.self)
+    }
+}
+
+extension SwiftyRatingsView {
+    
+    static func instantiateTest() -> SwiftyRatingsView {
+        let view = Bundle.framework.loadNibNamed("\(SwiftyRatingsView.self)", owner: nil, options: nil)!.first as! SwiftyRatingsView
+        return view
+    }
+}
+
 class ViewController: UIViewController {
 
     // Way 1, stack view
@@ -26,11 +55,11 @@ class ViewController: UIViewController {
         }
         $0.backgroundColor = .purple
         return $0
-    }(SwiftyRatingsView.instantiate())
-    
+    }(SwiftyRatingsView.instantiateTest())
+
     @IBOutlet weak var ratingsStackView: UIStackView! {
         didSet {
-            ratingsStackView.addArrangedSubview(ratingsView)
+            //ratingsStackView.addArrangedSubview(ratingsView)
         }
     }
     
@@ -49,7 +78,7 @@ class ViewController: UIViewController {
         }
         $0.backgroundColor = .purple
         return $0
-    }(SwiftyRatingsView.instantiate())
+    }(SwiftyRatingsView.instantiateTest())
     
     
     override func viewDidLoad() {

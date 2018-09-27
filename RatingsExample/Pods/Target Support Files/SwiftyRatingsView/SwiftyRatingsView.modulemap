@@ -1,0 +1,6 @@
+framework module SwiftyRatingsView {
+  umbrella header "SwiftyRatingsView-umbrella.h"
+
+  export *
+  module * { export * }
+}

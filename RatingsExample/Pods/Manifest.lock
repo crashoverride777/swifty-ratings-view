@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyRatingsView (1.0.5)
+
+DEPENDENCIES:
+  - SwiftyRatingsView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftyRatingsView
+
+SPEC CHECKSUMS:
+  SwiftyRatingsView: 5675fde81cba5399846f2a68ef5bbfac6dc40452
+
+PODFILE CHECKSUM: 0d1cb8771820ec98d43158432b0e67931a8beebb
+
+COCOAPODS: 1.5.2

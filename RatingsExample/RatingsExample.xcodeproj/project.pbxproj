@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		378FA973FF253CF6EB53F64D /* Pods_RatingsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F526FFF70903FFB4F15FAF8 /* Pods_RatingsExample.framework */; };
 		B40E131A215C06FA0039A50A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40E1319215C06FA0039A50A /* AppDelegate.swift */; };
 		B40E131C215C06FA0039A50A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40E131B215C06FA0039A50A /* ViewController.swift */; };
 		B40E131F215C06FA0039A50A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40E131D215C06FA0039A50A /* Main.storyboard */; };
 		B40E1321215C06FC0039A50A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40E1320215C06FC0039A50A /* Assets.xcassets */; };
 		B40E1324215C06FC0039A50A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40E1322215C06FC0039A50A /* LaunchScreen.storyboard */; };
 		B40E132F215C06FC0039A50A /* RatingsExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40E132E215C06FC0039A50A /* RatingsExampleUITests.swift */; };
-		B40E136C215C220A0039A50A /* SwiftyRatingsView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40E136A215C22000039A50A /* SwiftyRatingsView.framework */; };
-		B40E136D215C220A0039A50A /* SwiftyRatingsView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B40E136A215C22000039A50A /* SwiftyRatingsView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +33,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B40E136D215C220A0039A50A /* SwiftyRatingsView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,6 +40,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6734E162DDBBEA732EC797E6 /* Pods-RatingsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatingsExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RatingsExample/Pods-RatingsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		6D7545191E88769AD5C24087 /* Pods-RatingsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatingsExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RatingsExample/Pods-RatingsExample.release.xcconfig"; sourceTree = "<group>"; };
+		9F526FFF70903FFB4F15FAF8 /* Pods_RatingsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RatingsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40E1316215C06FA0039A50A /* RatingsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatingsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40E1319215C06FA0039A50A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B40E131B215C06FA0039A50A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		B40E132A215C06FC0039A50A /* RatingsExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatingsExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40E132E215C06FC0039A50A /* RatingsExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsExampleUITests.swift; sourceTree = "<group>"; };
 		B40E1330215C06FC0039A50A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B40E136A215C22000039A50A /* SwiftyRatingsView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyRatingsView.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B40E136C215C220A0039A50A /* SwiftyRatingsView.framework in Frameworks */,
+				378FA973FF253CF6EB53F64D /* Pods_RatingsExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +74,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		768AB1F7774DA482B705445C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F526FFF70903FFB4F15FAF8 /* Pods_RatingsExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B40E130D215C06FA0039A50A = {
 			isa = PBXGroup;
 			children = (
 				B40E1318215C06FA0039A50A /* RatingsExample */,
 				B40E132D215C06FC0039A50A /* RatingsExampleUITests */,
 				B40E1317215C06FA0039A50A /* Products */,
+				F443A68A5EF91C28FAE383D2 /* Pods */,
+				768AB1F7774DA482B705445C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +105,6 @@
 		B40E1318215C06FA0039A50A /* RatingsExample */ = {
 			isa = PBXGroup;
 			children = (
-				B40E136A215C22000039A50A /* SwiftyRatingsView.framework */,
 				B40E1319215C06FA0039A50A /* AppDelegate.swift */,
 				B40E131B215C06FA0039A50A /* ViewController.swift */,
 				B40E131D215C06FA0039A50A /* Main.storyboard */,
@@ -115,6 +124,15 @@
 			path = RatingsExampleUITests;
 			sourceTree = "<group>";
 		};
+		F443A68A5EF91C28FAE383D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6734E162DDBBEA732EC797E6 /* Pods-RatingsExample.debug.xcconfig */,
+				6D7545191E88769AD5C24087 /* Pods-RatingsExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B40E1333215C06FC0039A50A /* Build configuration list for PBXNativeTarget "RatingsExample" */;
 			buildPhases = (
+				5EE6FAAD131583568683C49E /* [CP] Check Pods Manifest.lock */,
 				B40E1312215C06FA0039A50A /* Sources */,
 				B40E1313215C06FA0039A50A /* Frameworks */,
 				B40E1314215C06FA0039A50A /* Resources */,
 				B40E136E215C220A0039A50A /* Embed Frameworks */,
+				9C6A4928DA33F2FE88C8229F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,6 +231,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EE6FAAD131583568683C49E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RatingsExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C6A4928DA33F2FE88C8229F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RatingsExample/Pods-RatingsExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyRatingsView/SwiftyRatingsView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyRatingsView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RatingsExample/Pods-RatingsExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B40E1312215C06FA0039A50A /* Sources */ = {
@@ -378,6 +437,7 @@
 		};
 		B40E1334215C06FC0039A50A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6734E162DDBBEA732EC797E6 /* Pods-RatingsExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -399,6 +459,7 @@
 		};
 		B40E1335215C06FC0039A50A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7545191E88769AD5C24087 /* Pods-RatingsExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
