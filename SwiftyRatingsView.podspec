@@ -17,7 +17,6 @@ s.source = {
 }
 
 s.source_files = "SwiftyRatingsView/**/*.{swift}"
-//s.resources =    "SwiftyRatingsView/**/*.{xib}"
 s.resource_bundles = {
      'SwiftyRatingsView' => ['SwiftyRatingsView/**/*.{lproj,storyboard,xib,xcassets,json,imageset,png}']
   }
