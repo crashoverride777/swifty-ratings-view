@@ -1,4 +1,4 @@
-# Swifty Ratings View
+# Swifty Ratings Control
 
 [![Swift 4.2](https://img.shields.io/badge/swift-4.2-ED523F.svg?style=flat)](https://swift.org/download/)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyRate.svg?style=flat)]()
@@ -32,48 +32,30 @@ import SwiftyRatingsView
 
 - Add to view
 
-Create a lazy property to instantiate the ratingsView. Call the configure method to setup the ratings view and add the callback handler to listen for ratings changes.
+Create a lazy property to instantiate the ratings control and add it to your views or stack views.
 ```swift
-private lazy var ratingsView: RatingsView = {
-let configuration = RatingsView.Configuration(
-    image: UIImage(named: "star")!,
-    numberOfItems: 5,
-    startRating: 2,
-    selectedColor: .orange,
-    deselectedColor: .gray
-)
-$0.configure(with: configuration)
-$0.handler = { [weak self] rating in
-print(rating)
-// Do your thing
-}
-return $0
-}(RatingsView.instantiate())
-```
-
-Now there is 2 ways to add the ratings view to your actual view, stackviews or code.
-
-Way 1, Stack views (preferred)
-
-Add a stack view to your desired view via storyboards/xibs, give it a width and height constraints of. Than create an outlet to your UIView class that will show the ratings view. Finall use didSet to add the ratingsView.
-```swift
-@IBOutlet weak var ratingsStackView: UIStackView! {
-    didSet {
-        ratingsStackView.addArrangedSubview(ratingsView)
+private lazy var ratingsControl: RatingsControl = {
+    let control = RatingsControl()
+    control.translatesAutoresizingMaskIntoConstraints = false
+    control.addBlurView(.regular)
+    control.handler = { [weak self] rating in
+        // Rating changed, do something
     }
-}
+    control.widthAnchor.constraint(equalToConstant: 120).isActive = true
+    control.heightAnchor.constraint(equalToConstant: 28).isActive = true
+    return control
+}()
 ```
 
-Way 2, code
-
+Configure the ratings control either in the lazy property or dynamically when needed
 ```swift
-view.addSubview(ratingsView)
-ratingsView.translatesAutoresizingMaskIntoConstraints = false
-ratingsView.widthAnchor.constraint(equalToConstant: 160).isActive = true
-ratingsView.heightAnchor.constraint(equalToConstant: 42).isActive = true
-ratingsView.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor).isActive = true
-ratingsView.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor).isActive = true
+let ratingsControlModel = RatingsControl.Model(
+    image: UIImage(named: "someImage",
+    numberOfItems: 5,
+    startRating: 0,
+    selectedColor: .orange,
+    deselectedColor: .lightGray,
+    count: nil
+)
+ratingsControl.configure(with: ratingsControlModel)
 ```
-
-
-

@@ -1,0 +1,70 @@
+//    The MIT License (MIT)
+//
+//    Copyright (c) 2019-2020 Dominik Ringler
+//
+//    Permission is hereby granted, free of charge, to any person obtaining a copy
+//    of this software and associated documentation files (the "Software"), to deal
+//    in the Software without restriction, including without limitation the rights
+//    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+//    copies of the Software, and to permit persons to whom the Software is
+//    furnished to do so, subject to the following conditions:
+//
+//    The above copyright notice and this permission notice shall be included in all
+//    copies or substantial portions of the Software.
+//
+//    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+//    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+//    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+//    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+//    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+//    SOFTWARE.
+
+import UIKit
+
+final class SwiftyRatingsControlButton: UIButton {
+    
+    // MARK: - Properties
+    
+    var isRated = false {
+        didSet {
+            tintColor = isRated ? selectedColor : deselectedColor
+        }
+    }
+    
+    private let selectedColor: UIColor
+    private let deselectedColor: UIColor
+    private let action: (SwiftyRatingsControlButton) -> Void
+    
+    // MARK: - Init
+    
+    init(tag: Int,
+         image: UIImage,
+         selectedColor: UIColor,
+         deselectedColor: UIColor,
+         isRated: Bool,
+         action: @escaping (SwiftyRatingsControlButton) -> Void) {
+        self.selectedColor = selectedColor
+        self.deselectedColor = deselectedColor
+        self.action = action
+        super.init(frame: .zero)
+        
+        self.tag = tag
+        setImage(image, for: .normal)
+        imageView?.contentMode = .scaleAspectFit
+        imageView?.clipsToBounds = true
+        adjustsImageWhenHighlighted = false
+        addTarget(self, action: #selector(handleTouchUpInside(_:)), for: .touchUpInside)
+        // Set is rated after super init to trigger didSet
+        self.isRated = isRated
+        tintColor = isRated ? selectedColor : deselectedColor
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    @objc private func handleTouchUpInside(_ sender: UIButton) {
+        action(self)
+    }
+}
