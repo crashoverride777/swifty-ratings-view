@@ -6,12 +6,12 @@
 
 A simpler ratings view. No fuss. Features swipe gesture.
 
-## Requirements
+# Requirements
 
 - iOS 11.4+
 - Swift 4.0+
 
-## Installation
+# Installation
 
 [CocoaPods](https://developers.google.com/admob/ios/quick-start#streamlined_using_cocoapods) is a dependency manager for Cocoa projects. Simply install the pod by adding the following line to your pod file
 
@@ -22,7 +22,7 @@ pod 'SwiftyRatingsView'
 
 Altenatively you can drag the swift file(s) and XIBs manually into your project.
 
-## Usage
+# Usage
 
 - Add the import statment when you installed via cocoa pods. 
 
@@ -74,6 +74,3 @@ ratingsView.heightAnchor.constraint(equalToConstant: 42).isActive = true
 ratingsView.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor).isActive = true
 ratingsView.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor).isActive = true
 ```
-
-
-
